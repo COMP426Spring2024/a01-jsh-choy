@@ -1,0 +1,114 @@
+
+* {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+}
+
+@font-face {
+  font-family: Diogenes;
+  src: url(../font/DIOGENES.ttf);
+}
+
+body {
+  background-color: rgb(241, 242, 247);
+}
+
+h1 {
+  font-family: 'Diogenes', sans-serif;
+  font-size: 72px;
+}
+
+h2 {
+  font-family: 'Diogenes', sans-serif;
+  font-size: 36px;
+}
+
+p {
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.center_a {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+
+/* Navigation Bar Stuff */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:   #000835;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+li a:hover {
+  background-color: #28a8db;
+}
+
+.active {
+  background-color: #628cda;
+}
+
+/* Table stuff for history.html */
+table {
+  font-family: arial, sans-serif;
+  border: 2px solid darkblue;
+  /* border-color:darkblue; */
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.center_table {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+td, th {
+  border: 1px solid #c5c4c4;
+  text-align: left;
+  padding: 8px;
+}
+
+#map_caption {
+  text-align: center;
+  font-size: 14px;
+  font-style: italic;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  background-color: rgb(222, 255, 222);
+}
+
+#history_date {
+  font-size: larger;
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#history_table_header {
+  font-size: x-large;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#history_table_description {
+  font-size: medium;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
