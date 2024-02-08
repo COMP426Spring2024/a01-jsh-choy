@@ -50,7 +50,7 @@ li {
 }
 
 li a {
-  font-family:Georgia, 'Times New Roman', Times, serif ;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
   display: block;
   color: white;
   text-align: center;
@@ -69,7 +69,6 @@ li a:hover {
 table {
   font-family: arial, sans-serif;
   border: 2px solid darkblue;
-  /* border-color:darkblue; */
   border-collapse: collapse;
   width: 100%;
 }
@@ -100,7 +99,6 @@ td, th {
   font-size: larger;
   text-align: center;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 }
 
 #history_table_header {
@@ -111,4 +109,19 @@ td, th {
 #history_table_description {
   font-size: medium;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Resources Page */
+.resource_header {
+  font-family: 'Times New Roman', Times, serif;
+  margin-left:2rem;
+}
+
+.resource_indent {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-indent: 3em;
+}
+.resource_format {
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 4rem;
 }
